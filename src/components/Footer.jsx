@@ -14,7 +14,7 @@ const Footer = () => {
                 </h3>
                 <ul className="footer__nav">
                     <li>
-                        <a href="#menu">Contactos</a>
+                        <a href="#contactos">Contactos</a>
                     </li>
                     <li>
                         <a href="#productos">Nuestra Harina</a>

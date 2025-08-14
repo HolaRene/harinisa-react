@@ -23,7 +23,6 @@ const Contacto = () => {
                             rel="noopener noreferrer"
                         >
                             Contacto por Email
-
                         </a>
                         <a
                             href="https://wa.me/50585602076?text=Hola%20estoy%20interesado%20en%20sus%20productos"
@@ -32,7 +31,6 @@ const Contacto = () => {
                             rel="noopener noreferrer"
                         >
                             Contacto por WhatsApp
-
                         </a>
                     </div>
                 </div>

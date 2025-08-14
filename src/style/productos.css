@@ -138,3 +138,16 @@
     font-size: 32px;
     color: var(--black-500);
 }
+
+/* START: popular media queries */
+@media screen and (max-width: 550px) {
+  .popular-foods {
+    padding: 60px 30px;
+  }
+
+  .popular-foods__card,
+  .popular-foods__card.active-card {
+    min-width: 100%;
+  }
+}
+/* END: popular media queries */

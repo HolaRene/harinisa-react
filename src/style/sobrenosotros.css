@@ -71,3 +71,61 @@
         color: var(--color-azul);
     }
 }
+/* START: about us media queries */
+@media screen and (max-width: 1024px) {
+  .sobre-nosotros {
+    flex-direction: column;
+  }
+
+  .sobre-nosotros__image {
+    flex-direction: row;
+  }
+
+  .sobre-nosotros__image-sushi3 {
+    border-bottom: none;
+    border-right: 8px solid var(--color-creamson);
+  }
+
+  .sobre-nosotros__button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .sobre-nosotros__image {
+    flex-direction: column;
+  }
+
+  .sobre-nosotros__image-sushi3 {
+    border-bottom: 8px solid var(--color-creamson);
+    border-right: none;
+  }
+
+  .sobre-nosotros__button {
+    display: block;
+    top: 47%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sobre-nosotros-sushi2 img,
+  .sobre-nosotros__image-sushi3 img {
+    width: 50%;
+    height: 160px;
+
+    object-fit: contain;
+  }
+
+  .sobre-nosotros__image div {
+    padding: 32px;
+  }
+
+  .sobre-nosotros__button {
+    top: 44%;
+  }
+
+  .sobre-nosotros__content {
+    padding: 32px;
+  }
+}
+/* END: about us media queries */

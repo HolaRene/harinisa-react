@@ -92,7 +92,7 @@ const Productos = () => {
             </div>
 
             <button className="popular-foods__button">
-                Explorar productos
+                <a href="#contactos">Consulta el producto</a>
                 <img src={flechaDerecha} alt="ver productos" />
             </button>
         </section>
