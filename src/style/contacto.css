@@ -1,0 +1,106 @@
+.subscription {
+    padding: 64px 20px;
+    background: var(--color-rojo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.subscription h2 {
+    font-size: 88px;
+    line-height: 123px;
+    font-weight: 600;
+    font-family: var(--playfair-display);
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+    gap: 30px;
+}
+
+.contacto__img img {
+    border-radius: 50px;
+    width: 310px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.contacto__descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contacto__descripcion p {
+    margin-top: 0;
+}
+
+.contacto__descripcion-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.contacto__descripcion-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.contacto__descripcion-btn a:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+.correo-a {
+    background-color: var(--color-azul);
+}
+
+.whatsapp-a {
+    background-color: var(--color-verde);
+}
+
+/* Responsive: Pantallas medianas y grandes */
+@media (min-width: 768px) {
+    .contacto {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacto__img {
+        order: 1;
+    }
+
+    .contacto__descripcion {
+        max-width: 500px;
+        text-align: left;
+        order: 2;
+    }
+
+    .subscription h2 {
+        font-size: 96px;
+    }
+}

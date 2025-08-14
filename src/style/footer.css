@@ -1,0 +1,64 @@
+.footer{
+    width: 100%;
+    padding: 20px 40px;
+    background: var(--color-white);
+
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    overflow: hidden;
+}
+
+.footer__logo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--playfair-display);
+
+    text-transform: uppercase;
+    color: var(--primary-naranja);
+
+    cursor: pointer;
+}
+
+.footer__logo span{
+    color: var(--color-verde);
+}
+
+.footer ul{
+    list-style:  none;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.footer ul:last-child{
+    gap: 32px;
+}
+
+.footer__social li {
+    width: 42px;
+    height: 42px;
+    background-color: var(--color-azul);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__social li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer__social li a img {
+    width: 65%;   /* Aumenta para que ocupe más el círculo */
+    height: 65%;
+    object-fit: contain;
+    filter: brightness(1);
+    /* Opcional: si el SVG es muy claro o necesita ajuste */
+}
