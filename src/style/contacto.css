@@ -82,7 +82,28 @@
     background-color: var(--color-verde);
 }
 
-/* Responsive: Pantallas medianas y grandes */
+/* Responsive: Pantallas medianas  */
+@media (max-width: 768px) {
+    .contacto {
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacto__img {
+        order: 1;
+    }
+
+    .contacto__descripcion {
+        max-width: 500px;
+        text-align: left;
+        order: 2;
+    }
+
+    .subscription h2 {
+        font-size: 46px;
+    }
+}
 @media (min-width: 768px) {
     .contacto {
         flex-direction: row;
@@ -101,6 +122,6 @@
     }
 
     .subscription h2 {
-        font-size: 96px;
+        font-size: 76px;
     }
 }
